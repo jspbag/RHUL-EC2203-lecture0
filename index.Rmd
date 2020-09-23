@@ -1,0 +1,133 @@
+---
+pagetitle: EC2203 introduction and practicalities
+output: 
+  revealjs::revealjs_presentation:
+    incremental: false
+    theme: solarized
+    self_contained: false
+    # reveal_plugins: ["menu","notes","chalkboard"]
+    reveal_plugins: ["menu"]
+    highlight: pygments
+    center: true
+    transition: none
+    background_transition: none 
+    reveal_options:
+      # chalkboard:
+      #   theme: whiteboard
+      #   toggleNotesButton: true
+      #   toggleChalkboardButton: true
+      menu:
+        numbers: true
+      slideNumber: true
+      previewLinks: false
+    fig_caption: true
+    pandoc_args:
+    - --indented-code-classes
+    - lineNumbers
+    css: mystyle.css
+    
+--- 
+
+<section>
+
+<h1>EC2203 introduction and practicalities</h1>
+
+<br>
+
+<h2>[Jesper Bagger](mailto:jesper.bagger@rhul.ac.uk)</h2>
+
+<h3>EC2203 | Royal Holloway | 2020/21</h3>
+
+</section>
+
+## EC2203 
+
+EC2203 (Autumn) introduces you to **regression analysis**, a core method used by economists to provide **quantitative** answers to questions from the worlds of business and government policy 
+
+EC2203 covers both the **statistical theory** of regression analysis, and the **implementation** of regression analysis using the statistical software R
+
+## EC2203 learning objectives
+
+- Understand the statistical properties of the linear regression model
+
+- be able to formulate hypothesis in the context of the linear regression model and carry out statistical tests
+
+- be able to manipulate datasets using R
+
+- be able to apply linear regression using R
+
+- be able to interpret regression output from R
+
+## Plan
+
+- Introducing R and RStudio
+
+- Review of probability and statistics
+
+- Causality
+
+- The simple linear regression model
+
+- Multiple linear regression model
+
+- Further topics in regression analysis
+
+## Assessement (Autumn term material)
+
+- Final exam (20%)
+
+- Graded homework (10% + 10%)
+
+  Monday Nov 9, 2020
+  
+  Monday Nov 30, 2020
+
+- Online quizzes (10%)
+
+## R and RStudio
+
+R is an **open source** programming language for statistical computing and graphics
+
+R is widely used in academia and in the worlds of business and government
+
+RStudio is a development environment for R
+
+
+## Textbook(s)
+
+**Main text**
+
+Stock, James H. and Mark W. Watson, *Introduction to Econometrics*, 4th Edn. (Global Edn.), 2020, Pearson 
+
+(earlier editions are also suitable)
+
+**Companion text**
+
+Christoph Hanck, Martin Arnold, Alexander Gerber, and Martin Schmelzer, *Introduction to Econometrics with R*, 2020, e-text link: https://www.econometrics-with-r.org/
+
+
+## Lectures, seminars, online feedback sessions
+
+- Pre-recorded short lecture "snippets" made available on Moodle week by week
+
+  Lecture snippets assessed by online quizzes 
+
+- Weekly 1 hour live lecture 
+
+  group 1: Thursday 12-13; group 2: Thursday 14-15
+
+- TA-led 1 hour seminar to go over weekly problem set
+
+- Online feedback sessions 
+
+  MS Teams, Monday 14-15; Tuesday 12-13
+  
+## Moodle
+
+- Pre-recorded lecture snippets to review probability and statistics (Stock and Watson, ch. 1-3)
+  
+  Quizzes not assessed this week; will be next week!
+    
+- Slides and problem sets 
+    
+- Recorded instructions on how to download and install R and RStudio on Windows and macOS
